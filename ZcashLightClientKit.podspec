@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'ZcashLightClientKit'
-    s.version          = '0.14.0-beta'
+    s.version          = 'resourceBundle'
     s.summary          = 'Zcash Light Client wallet SDK for iOS'
   
     s.description      = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
         'Francisco Gindre' => 'francisco.gindre@gmail.com',
         'Jack Grigg' => 'str4d@electriccoin.co'
      }
-    s.source           = { :git => 'https://github.com/zcash/ZcashLightClientKit.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/peachbits/ZcashLightClientKit.git', :branch => s.version.to_s }
 
     s.source_files = 'Sources/ZcashLightClientKit/**/*.{swift,h}'
     s.resource_bundles = { 'ZcashResources' => 'Sources/ZcashLightClientKit/Resources/*' }
